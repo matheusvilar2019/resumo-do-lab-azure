@@ -1,7 +1,7 @@
 # Resumo dos Labs DIO - Azure
 
 
-## Localizando Serviços por Categoria 
+## Lab 1 - Localizando Serviços por Categoria 
 
 ### Personalizar Conta
 * Menu e cores
@@ -19,7 +19,7 @@
 
 
 
-## Criando Máquinas Virtuais na Azure
+## Lab 2 - Criando Máquinas Virtuais no Azure
 Esta tabela mostra a relação entre diferentes níveis de SLA e o tempo máximo de inatividade permitido em diferentes períodos.
 
 | SLA      | Tempo de inatividade por semana | Tempo de inatividade por mês | Tempo de inatividade por ano |
@@ -36,10 +36,10 @@ Essa tabela pode ser usada como referência para avaliar o impacto do SLA em um 
 
 
 
-## Configurando uma Instância de Banco de Dados na Azure
+## Lab 3 - Configurando uma Instância de Banco de Dados no Azure
 
 * Ao selecionar a imagem da máquina, a responsabilidade passa a ser do seu TI
-* Configurar:
+* Configurar
   * Discos
   * Rede
   * Gerenciamento
@@ -56,3 +56,27 @@ Essa tabela pode ser usada como referência para avaliar o impacto do SLA em um 
 ### Responsabilidade dos Modelos de Serviço
 * Infraestrutura como serviço é o modelo que mais demanda responsabilidade da parte do nosso TI.
 * Software como serviço é o que menos demanda responsabilidade.
+
+
+
+## Lab 4 - Construíndo Arquiteturas no Azure
+
+### Azure Tour: Ilustra o funcionamento dos datacenters do Azure
+* Centro de Operações
+* Sala de Servidores
+* Área externa
+* Centro Circular	
+
+### Criando Grupo de Recursos
+* Log de atividades: armazena os registros de criação, alteração e exclusão das configurações do Azure
+* __IAM:__ controle de permissão do TI
+* __Bloqueios:__ possibilita restringir alterações e exclusões realizadas pelo TI
+* __Visualizador de Recursos:__ exibe os recursos (exemplo: rede virtual criada abaixo)
+* __Eventos:__ possibilita a criação de eventos automatizados
+
+### Criando Rede Virtual
+* __Escolher:__
+	* Grupo de Recursos
+	* Nome da Rede Virtual
+	* Região (Brazil South)
+* O objetivo ao criar a VNET é realizar o endereçamento de rede
