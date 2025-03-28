@@ -59,7 +59,7 @@ Essa tabela pode ser usada como referência para avaliar o impacto do SLA em um 
 
 
 
-## Lab 4 - Construíndo Arquiteturas no Azure
+## Lab 4 - Construindo Arquiteturas no Azure
 
 ### Azure Tour: Ilustra o funcionamento dos datacenters do Azure
 * Centro de Operações
@@ -80,3 +80,26 @@ Essa tabela pode ser usada como referência para avaliar o impacto do SLA em um 
 	* Nome da Rede Virtual
 	* Região (Brazil South)
 * O objetivo ao criar a VNET é realizar o endereçamento de rede
+
+
+
+## Lab 5 - Configurando Recursos e Dimensionamentos em Máquinas Virtuais no Azure
+
+### Máquina Virtual
+* __Escolher:__ Grupo de recursos, nome da máquina, região
+* Criar conjunto de dimensionamento da VM (configurar escala, dimensionamento automático ou manual)
+* __Spot Azure:__ Desconto da Azure para utilizar carga disponível, caso a carga seja ocupada, sua aplicação pode cair. __NÃO USAR EM PRODUÇÃO__
+* __Excluir com VM:__ evita discos existentes que acarretam custos
+* __Excluir o IP público e a NIC quando a VM for excluída:__ evita placa de rede existente mesmo após exclusão acarretando custos
+* __Desligamento automático:__ configuração dos perídos de desligamento e suas notificações
+* Backup automático
+* __Habilitar regras de alertas recomendadas:__ configura alertas sobre o consumo da máquina
+* __Instalar extensão:__ Chef VM, anti malware, HPE Security...
+
+### Área de Trabalho Virtual do Azure
+* Criar um pool de hosts
+
+### Criar Aplicativo de Funções
+* Nome
+* __Pilha de Runtime:__ .NET, Java, Node.js...
+* __SO:__ Windows ou Linux
