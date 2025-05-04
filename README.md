@@ -103,3 +103,30 @@ Essa tabela pode ser usada como referência para avaliar o impacto do SLA em um 
 * Nome
 * __Pilha de Runtime:__ .NET, Java, Node.js...
 * __SO:__ Windows ou Linux
+
+
+# Resumo dos Labs DIO - Azure - Serviços Cloud de Inteligência Artificial
+
+## Lab 1 - Análise de Sentimentos com Language Studio no Azure AI
+
+### Capacidades de processamento de Linguagem Natural
+Extração de informações. Tais como:
+- Idioma predominante: Português
+- Sentimento: 0,88 (positivo)
+- Frases-chave: "férias maravilhosas"
+- Entidades: França
+
+### Resposta a perguntas:
+Defina uma base de conhecimento de pares de perguntas e respostas:
+- Ao inserir perguntas e respostas
+- De um documento de perguntas frequentes existente
+- Usando bate-bapo integrado
+
+### Serviço de bot do Azure
+- Plataforma baseada em nuvem para desenvolvimento e gerenciamento de bots
+- Integração com AI Language e outros serviços
+- Conectividade através de vários canais (email, site, telefone...)
+
+### Reconhecimento e Síntese de fala
+- Use os recursos de conversão de texto em fala do __Serviço de Fala__ para gerar fala audível a partir de texto.
+
