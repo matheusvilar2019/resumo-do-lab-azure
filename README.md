@@ -160,3 +160,17 @@ Torna o conteúdo mais útil para fins de pesquisa
 - Avalie o sentimento
 - Consumo de dados durante a indexação
 - Os dados serializados são passados ao mecanismo de pesquisa para indexação
+
+## Lab 3 - Explorando os Recursos de IA Generativa com Copilot e OpenAI
+
+### Planejar uma solução de IA generativa responsável
+As quatro frases do processo para desenvolver e implementar um plano de IA responsável são: 
+- __Identificar:__ Possíveis danos relevantes para a solução planejada.
+- __Medida:__ A presença desses danos nas saídas geradas pela solução.
+- __Mitigar:__ Os danos em várias camadas em sua solução para minimizar a presença e impacto deles.
+- __Operar:__ A solução com responsabilidade definindo e seguindo um plano de implantação e de preparação operacional.
+
+### Microsoft Copilot
+- Traz respostas em texto ou áudio
+- Gera imagens
+- Pode ajudar com tarefas
