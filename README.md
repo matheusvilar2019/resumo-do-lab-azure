@@ -130,3 +130,33 @@ Defina uma base de conhecimento de pares de perguntas e respostas:
 ### Reconhecimento e Síntese de fala
 - Use os recursos de conversão de texto em fala do __Serviço de Fala__ para gerar fala audível a partir de texto.
 
+## Lab 2 - Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados
+
+### O que é mineração de conhecimento?
+- Os dados são bloqueados em documentos, PDFS, notas manuscritas, etc.
+- A mineração de conhecimento encontra insights.
+- O Azure Cognitive Search é a plataforma de mineração de conhecimento alimentada por IA do Azure.
+
+### Soluções de Pesquisa Cognitiva do Azure
+Ingestão de dados
+- Azure Blog Storage containers
+- Azure Data Lake Storage Gen2
+- Azure Table Storage
+
+Enriquecimento e índice de IA
+- Permite uma compreensão mais profunda
+- Visão, Processamento de Linguagem Natural, etc.
+- A indexação torna o conteúdo pesquisável
+
+Explorar
+- Pesquisa realiza em índices
+- Dentro dos aplicativos
+- Crie visualizações de dados
+
+### Enriquecimento de IA
+Torna o conteúdo mais útil para fins de pesquisa
+- Reconhecer entidades no texto
+- Traduzir texto
+- Avalie o sentimento
+- Consumo de dados durante a indexação
+- Os dados serializados são passados ao mecanismo de pesquisa para indexação
